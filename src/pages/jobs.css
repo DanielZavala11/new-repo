@@ -1,0 +1,21 @@
+.card {
+    background-color: rgba(0, 187, 255, 0.1);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.title {
+    padding: 0;
+    margin: auto;
+}
+
+.individual-card {
+    margin-left: 100px;
+    position: relative;
+    border: 1px solid black;
+}

@@ -1,0 +1,55 @@
+.title {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    width: 200px;
+    
+}
+
+#top {
+    position: relative;
+    top: 0;
+    
+}
+
+.field-title {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    width: 200px;
+    margin: auto;
+}
+
+
+
+.custom {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.on-button {
+    background-color: transparent;
+}
+
+.on-button:hover {
+    border-color: transparent;
+}
+
+.on-button:focus {
+    border-color: transparent;
+    outline-width: 0;
+}
+

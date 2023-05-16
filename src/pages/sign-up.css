@@ -1,0 +1,69 @@
+.sign-up-title {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    width: 200px;
+    margin: auto;  
+}
+
+#first-name, #last-name, #password, #username, #email {
+    width:fit-content;
+    font-size: 48px;
+}
+
+#top-title {
+  
+   position: relative;
+   margin: auto;
+   padding: 0;
+}
+
+.field {
+    border-bottom: 2px solid green;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: transparent;
+    width: 325px;
+    font-size: 32px;
+}
+
+input.field:focus {
+    outline-width: 0;
+    border-bottom-color: rgba(22, 249, 194, 1);
+}
+
+.submit-button {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgba(22, 249, 194, .3);
+    background-color: rgba(0, 255, 255, .1);
+    padding: 0;
+    box-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    margin: 20px auto;
+}
+
+/*
+.button {
+background-color: rgba(0, 255, 255, .1);
+}
+*/
+
+.submit-button:focus {
+    border-color: red;
+}

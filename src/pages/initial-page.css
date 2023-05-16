@@ -1,0 +1,71 @@
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 400px;
+    width: 330px;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    justify-content:stretch;
+    justify-items:flex-start;
+    background-color: black;
+    height: 100vh;
+    flex-direction: column;
+    gap: 0;
+}
+
+.triangle {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    border: 1px solid green;
+    height: 80%;
+}
+
+.options {
+    display: block;
+    height: 200px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+}
+
+.designation {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    width: 200px;
+    margin: 25px auto;
+}
+
+.initial-title {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, .5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(22, 249, 194, 0.5);
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid green;
+    height: 220px;
+}
+
+#with {
+    font-size: 48px;
+    margin: auto 0;
+}

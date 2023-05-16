@@ -1,0 +1,218 @@
+#jobs {
+    font-size: 30px;
+    display: block;
+}
+
+#settings {
+    font-size: 30px;
+    display: block;
+}
+
+#circle:hover {
+    fill: black;
+}
+
+.app-title {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    
+    mix-blend-mode: screen;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 10 0 0;
+    font-size: 64px;
+    text-align: center;
+}
+
+.jobs-button {
+    background-color: rgba(48, 9, 138, 0.9);
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    box-shadow:  2.5px 2px 2px 2px black;
+    text-align: center;
+}
+
+.bottom-nav {
+    border-top: 5px solid green;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    position: absolute;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin: auto;
+    width: 100%;
+}
+
+.button-name {
+    color: white;
+    top: 7px;
+    padding: 0;
+    position: relative;
+    font-size: 20px;
+}
+
+.pac-man {
+    width: 0px;
+  height: 0px;
+  border-top: 60px solid #32557f;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid #32557f;
+  border-left: 60px solid #32557f;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.shape {
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+
+.block {
+    height: 20px;
+    width: 300px;
+    border: 1px solid green;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.part1 {
+    position: sticky;
+    height: 100%;
+    width: 16%;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    z-index: 0;
+}
+
+.part2 {
+    position: sticky;
+    height: 100%;
+    width: 84%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 0;
+}
+
+.knob {
+    position: absolute;
+    margin-left: 40px;
+    border-radius: 1000px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    z-index: 1;
+}
+
+.inner-circle {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.percentage {
+    color: blue;
+    margin: auto;
+    font-size: 25px;
+}
+
+.rooms {
+    border-top: 5px solid green;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom: 5px solid green;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, 0.5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.scenes {
+    border-top: 5px solid green;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom: 5px solid green;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, 0.5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.connect {
+    border-top: 5px solid green;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom: 5px solid green;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(22, 249, 194, 0.5);
+    mix-blend-mode: screen;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+    height: 500px;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+/*text-shadow: 0px 10px 10px rgba(11, 156, 49, 1);*/
